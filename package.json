@@ -1,7 +1,7 @@
 {
   "name": "react-native-rn-zendesk",
   "title": "React Native Rn Zendesk",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "description": "React native zendesk chat",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,15 @@
     "baseUrl": "https://github.com/chauhan-saurabh/react-native-rn-zendesk"
   },
   "keywords": [
-    "react-native"
+    "zendesk",
+    "chat",
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "facebook",
+    "core"
   ],
   "author": {
     "name": "Saurabh Chauhan",

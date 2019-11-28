@@ -22,14 +22,20 @@ Configure `ZopimChat` in `android/app/main/java/[...]/MainActivity.java`
 ZopimChat.init("YOUR_ZENDESK_ACCOUNT_KEY").build();
 ```
 
+```
+Add  maven { url 'https://zendesk.jfrog.io/zendesk/repo' } in build.gradle repository (android level not app level)
+```
+
 #### IOS
 
 Configure `ZDCChat` in `AppDelegate.m`:
 
 ```
+
 #import <ZDCChat/ZDCChat.h>
 
 [ZDCChat initializeWithAccountKey:@"YOUR_ZENDESK_ACCOUNT_KEY"];
+
 ```
 
 ## Usage
@@ -40,7 +46,7 @@ In your code add `import RnZendesk from 'react-native-rn-zendesk';`.
 
 ```
 
-ZendeskChat.startChat({
+RnZendesk.startChat({
 name: user.full_name,
 email: user.email,
 phone: user.mobile_phone,
