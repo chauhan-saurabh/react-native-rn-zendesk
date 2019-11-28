@@ -12,14 +12,15 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/chauhan-saurabh/react-native-rn-zendesk"
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.authors      = { "Your Name" => "yourname@email.com" }
+  s.authors      = { "Saurabh Chauhan" => "saurabh.chauhan@smartdatainc.net" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/chauhan-saurabh/react-native-rn-zendesk.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
-
+  s.dependency "ZDCChat"
   s.dependency "React"
+
   # ...
   # s.dependency "..."
 end
